@@ -6,7 +6,6 @@ variables:
     webRepository: 'web'
   tag: '$(Build.BuildId)'
 
-Stage1:
 - stage: 'Build'
   displayName: 'Build and push'
   jobs:  
